@@ -1,1 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T07:20:38.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2uWs9_1rj5LT0M6K9Wyo" version="20.8.20" type="github"><diagram name="第 1 页" id="5gJTAO4s3BZQWhgMkvut">3Vpdc9o4FP01PIaR5Q/wIyFsts2kww6d7fZR2KrRVFhUlgPsr99rLNv4g4Sk2JjNA5GurmTpnKOrK8PAnK53j5JsVs/Cp3yAkb8bmA8DjMemBZ+JYZ8aDAdpSyCZr22FYcH+pdqItDVmPo1KjkoIrtimbPREGFJPlWxESrEtu/0QvPzUDQlozbDwCK9bvzFfrfS68Kiw/0lZsMqebDhu2rImmbNeSbQivtgemczZwJxKIVRaWu+mlCfgZbik/f440ZpPTNJQndNBzmffBVaG9fz0NP1ifF5+fZre6VFeCI/1ggfY4TDe/Q8Bw8Ks1V5D4fyKRdZwFx2ImoCDYW2A7PuiHUpB8v9nvARCkhkkcwKGOIOZ3gUiewKY04ek/hql/HlYijj0aTJ7A5q3K6boYkO8pHULYgPbSq25btbroFLR3UmAjBx20CsVa6rkHlx0B+xqprRWzYy5bUE8du3Utjoi3dJ+RGstyIcu6ICCZuQd7OD22Hkick18Ai6T+Sf4XFAJ4N0MNe6Z1BhmW9yYXXAzhR5ScE5llI2+lAUrLZCV0MQg/E04C0KwKbG5DIWGbZcotLP6EYVWxlaJQqMtCq0ahVMeR6rYBgXWBRG/B29ClD7kDOtCwI4qwLq4BqzbgKvTFqx2Dda54Mzb3xSquG+oOjVU71noszC4KVjNvsE6qsE621EvVkyE3QHrk2iV970AylbfUB53cVguPAAx5i1lMZfmqHoeWk49pcmPvk6yTbc9kv4W3CMhZP7okYsl4a2zdQGCHIzeJMi0uyQoU0MbDM2+Th/6ykRtqxjX3ipGi/fmhr3ScA24jaS/uodse3TeHmov6TfqF7e58B8Br02C9HPvUqaRVVa/g4y6+lGT+u22IKxfnP6KKRR7iZ9jor7hV78hfRbLfqI3dnqHXv0m1GbsnfhrFkVH14G+nY61PKXhdOw4T2nKJCso0dCfJK/noeZxAgB7ZWAKFFGDsAEauf9Hux4q3xPPIbaz+sNOd01re11L50H92kv/N9E+QrMJzMwmKSeKvZSHb0JYP2Eu2EGzJ150WtgtDxGJWHpU9yp4qg/k2K8PpIgMqKoNdCA8X/ZvvLpuylUvq4EdU7kEoJwqwNa1gv+k8l76YZoHnF9Z4PiqMrEreVX1NffZMqnqbYy6lUlTIt1OqEBDy7aOw4UxRGj8Rrw41OZUMlgoXFVvI4hY2Cqrw/6gOixsDl0TFX9OeVzDHWZf53alF9xVWEHXCStpdnM15ZgXUo5djSvVANW2Tpq+nvs/6cS9pkyqVyqrmkp+WCZdHz9NL6arMgG6Froa0WANVM0K0/1bKvJi+ZKLqCwp6KoVlRxDEaxVHdVPCm5oQy5XiO4OwTnmvqq7pPLRQ+ycmHXV026E3ErMsj4oRlQJfsZ5KTPQT/ZHbpvEITo94TGqfDtjuu+bV9kfCukMztwZUC1+dJS6Fz/dMmf/AQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-14T07:26:16.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="o1RUrFxPfCyxE7AtAwYp" version="20.8.20" type="github">
+  <diagram name="第 1 页" id="5gJTAO4s3BZQWhgMkvut">
+    <mxGraphModel dx="834" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IQaOYZ_35Q_Gfc6mM62W-1" value="&lt;b&gt;Karmada control-plane&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;glass=0;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="140" y="290" width="470" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;kubectl / client-go&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="320" width="295" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Karmada API Server&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="390" width="295" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Karmada Controllers&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="155" y="555" width="430" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-4" value="Cluster&lt;br&gt;Controller" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="175" y="592" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-5" value="Policy&lt;br&gt;Controller" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="275" y="592" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-6" value="Binding&lt;br&gt;Controller" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="375" y="592" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-7" value="Execution&lt;br&gt;Controller" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="475" y="592" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Karmada Scheduler&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="155" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Volcano Global Scheduler&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="655" y="460" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ETCD&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="155" y="410" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Volcano Global Controllers&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="655" y="557" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-13" value="PodGroup CM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="780" y="601" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-14" value="Queue CM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="665" y="601" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-15" value="Job CM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="895" y="601" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Volcano Global Admission&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="655" y="410" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="429" as="sourcePoint" />
+            <mxPoint x="265" y="429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="rPEYo2t14MKKCN1JbTKC-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="530" as="sourcePoint" />
+            <mxPoint x="290" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.454;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="550" as="sourcePoint" />
+            <mxPoint x="423.93000000000006" y="519.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="rPEYo2t14MKKCN1JbTKC-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="434" y="550" as="sourcePoint" />
+            <mxPoint x="590" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="rPEYo2t14MKKCN1JbTKC-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="440" as="sourcePoint" />
+            <mxPoint x="590" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPEYo2t14MKKCN1JbTKC-28" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=14;exitX=0.529;exitY=-0.009;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rPEYo2t14MKKCN1JbTKC-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="709" y="554" as="sourcePoint" />
+            <mxPoint x="504" y="519" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="556" />
+              <mxPoint x="840" y="539" />
+              <mxPoint x="504" y="539" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQaOYZ_35Q_Gfc6mM62W-2" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rPEYo2t14MKKCN1JbTKC-1" target="rPEYo2t14MKKCN1JbTKC-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="439" as="sourcePoint" />
+            <mxPoint x="275" y="439" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQaOYZ_35Q_Gfc6mM62W-3" value="&lt;b&gt;Volcano Global&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=none;glass=0;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="640" y="370" width="390" height="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
