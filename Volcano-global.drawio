@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T10:28:54.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="N0hSe67oSIZaASAmZMvn" version="20.8.20" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-20T06:46:39.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2l78_10sceaegmBJB_zE" version="20.8.20" type="github" pages="2">
   <diagram name="Volcano-global架构图" id="5gJTAO4s3BZQWhgMkvut">
     <mxGraphModel dx="1231" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -197,11 +197,94 @@
         <mxCell id="OLggS5x1hIM3Y-RUdfWk-22" value="ScheduleManyWithTxn" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;glass=0;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="165" y="1000" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OLggS5x1hIM3Y-RUdfWk-23" value="aggregateUsage" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;glass=0;fontSize=14;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-23" value="更新JobDB信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;glass=0;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="165" y="1080" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OLggS5x1hIM3Y-RUdfWk-24" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rounded=0;glass=0;fontSize=14;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="391" y="1000" width="45" height="50" as="geometry" />
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-24" value="循环为每个pod查找符合条件的node，并将job信息绑定到对应的node节点&lt;br&gt;SelectNodeForPodWithTxn：亲和性、标签、污点、资源需求等满足条件，即选择成功，待添加节点打分功能&lt;br&gt;BindNodeToPod：将jobID和已申请资源等信息更新在node结构体中，并在redis中更新node信息" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rounded=0;glass=0;fontSize=14;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="394" y="1000" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-25" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OLggS5x1hIM3Y-RUdfWk-10" target="OLggS5x1hIM3Y-RUdfWk-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="270" as="sourcePoint" />
+            <mxPoint x="510" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279.5" y="440" as="sourcePoint" />
+            <mxPoint x="280" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-27" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OLggS5x1hIM3Y-RUdfWk-12" target="OLggS5x1hIM3Y-RUdfWk-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="287.5" y="515" as="sourcePoint" />
+            <mxPoint x="288" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OLggS5x1hIM3Y-RUdfWk-13" target="OLggS5x1hIM3Y-RUdfWk-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="530" as="sourcePoint" />
+            <mxPoint x="290" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-29" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OLggS5x1hIM3Y-RUdfWk-14" target="OLggS5x1hIM3Y-RUdfWk-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="610" as="sourcePoint" />
+            <mxPoint x="290" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="OLggS5x1hIM3Y-RUdfWk-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="760" as="sourcePoint" />
+            <mxPoint x="300" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-31" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OLggS5x1hIM3Y-RUdfWk-20" target="OLggS5x1hIM3Y-RUdfWk-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="630" as="sourcePoint" />
+            <mxPoint x="310" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-32" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OLggS5x1hIM3Y-RUdfWk-21" target="OLggS5x1hIM3Y-RUdfWk-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="890" as="sourcePoint" />
+            <mxPoint x="290" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-33" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="OLggS5x1hIM3Y-RUdfWk-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1050" as="sourcePoint" />
+            <mxPoint x="300" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-34" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OLggS5x1hIM3Y-RUdfWk-23" target="OLggS5x1hIM3Y-RUdfWk-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="670" as="sourcePoint" />
+            <mxPoint x="330" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="990" />
+              <mxPoint x="120" y="980" />
+              <mxPoint x="210" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-36" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="233" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-38" value="Scheduler exit" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;glass=0;fontSize=14;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-39" value="stop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="394" y="805" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OLggS5x1hIM3Y-RUdfWk-40" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OLggS5x1hIM3Y-RUdfWk-20" target="OLggS5x1hIM3Y-RUdfWk-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="840" as="sourcePoint" />
+            <mxPoint x="430" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1050" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
