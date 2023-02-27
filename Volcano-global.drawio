@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T03:30:54.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Nq3DC6KcoShfdc5KI0ac" version="20.8.20" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-27T03:31:28.710Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="vp8IxOujUhv8SXXUo7gh" version="20.8.20" type="github" pages="4">
   <diagram name="Volcano-global架构图" id="5gJTAO4s3BZQWhgMkvut">
     <mxGraphModel dx="1046" dy="1638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,14 +43,11 @@
         <mxCell id="rPEYo2t14MKKCN1JbTKC-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Volcano Global Controllers&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="655" y="557" width="350" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="rPEYo2t14MKKCN1JbTKC-13" value="PodGroup CM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="780" y="601" width="100" height="45" as="geometry" />
-        </mxCell>
         <mxCell id="rPEYo2t14MKKCN1JbTKC-14" value="Queue CM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="665" y="601" width="100" height="45" as="geometry" />
+          <mxGeometry x="665" y="601" width="155" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rPEYo2t14MKKCN1JbTKC-15" value="Job CM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="895" y="601" width="100" height="45" as="geometry" />
+          <mxGeometry x="840" y="601" width="155" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rPEYo2t14MKKCN1JbTKC-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Volcano Global Admission&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="655" y="410" width="350" height="40" as="geometry" />
