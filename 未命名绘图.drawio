@@ -1,17 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T03:36:09.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="3KXIV0yYXvi00NHVNjZF" version="20.8.20" type="github">
-  <diagram name="第 1 页" id="J5-eJHHG1b55brgwNjni">
-    <mxGraphModel dx="594" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-03-18T11:34:35.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="7tPyEu_pOB-Bpj5908H5" version="20.8.23" type="github">
+  <diagram name="应用案例-爱奇艺" id="J5-eJHHG1b55brgwNjni">
+    <mxGraphModel dx="1661" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="u8RZhlJG0m35iMYBsQBe-1" value="karmada-apiserver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="230" width="440" height="40" as="geometry" />
+        <mxCell id="sumleDjzon_gqM2Qnqdv-1" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="188" y="412" width="30" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u8RZhlJG0m35iMYBsQBe-2" value="karmada-controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="320" width="200" height="40" as="geometry" />
+        <mxCell id="sumleDjzon_gqM2Qnqdv-3" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="222" y="412" width="30" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u8RZhlJG0m35iMYBsQBe-3" value="karmada-scheduler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="320" width="200" height="40" as="geometry" />
+        <mxCell id="sumleDjzon_gqM2Qnqdv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="sumleDjzon_gqM2Qnqdv-4" target="sumleDjzon_gqM2Qnqdv-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="485" />
+              <mxPoint x="127" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sumleDjzon_gqM2Qnqdv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="sumleDjzon_gqM2Qnqdv-4" target="sumleDjzon_gqM2Qnqdv-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="485" />
+              <mxPoint x="311" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sumleDjzon_gqM2Qnqdv-4" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="205" y="437" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sumleDjzon_gqM2Qnqdv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="sumleDjzon_gqM2Qnqdv-5" target="sumleDjzon_gqM2Qnqdv-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="127" y="570" />
+              <mxPoint x="220" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sumleDjzon_gqM2Qnqdv-5" value="jarvis web" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="76" y="505" width="102" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sumleDjzon_gqM2Qnqdv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="sumleDjzon_gqM2Qnqdv-6" target="sumleDjzon_gqM2Qnqdv-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="311" y="570" />
+              <mxPoint x="220" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sumleDjzon_gqM2Qnqdv-6" value="jarvis cli" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="260" y="505" width="102" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sumleDjzon_gqM2Qnqdv-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Jarvis core&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="585" width="520" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="sumleDjzon_gqM2Qnqdv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="sumleDjzon_gqM2Qnqdv-8" target="sumleDjzon_gqM2Qnqdv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sumleDjzon_gqM2Qnqdv-8" value="Marathon plugin" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="8" y="640" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sumleDjzon_gqM2Qnqdv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.378;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="1" source="sumleDjzon_gqM2Qnqdv-9" target="sumleDjzon_gqM2Qnqdv-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sumleDjzon_gqM2Qnqdv-9" value="Volcano plugin" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="640" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sumleDjzon_gqM2Qnqdv-10" value="&lt;b&gt;Mesos&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-42" y="727" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sumleDjzon_gqM2Qnqdv-12" value="&lt;p style=&quot;line-height: 0%;&quot;&gt;&lt;b&gt;Kubernetes&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=bottom;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="230" y="727" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sumleDjzon_gqM2Qnqdv-13" value="&lt;p style=&quot;line-height: 140%;&quot;&gt;&lt;b&gt;Volcano&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;CRD + Controllers + Scheduler&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="290" y="709" width="172" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
